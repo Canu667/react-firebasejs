@@ -4,7 +4,6 @@ import messagesReducer from './messages';
 import newMessageReducer from './new-message';
 import usersReducer from './users';
 
-
 const reducer = combineReducers({
   auth: authReducer,
   messages: messagesReducer,
